@@ -7,7 +7,7 @@ import {
 
 // --- Configuration Backend ---
 // Remplace par l'URL de ton serveur (ex: http://localhost:3000/api/workflow/execute)
-const API_URL = "http://localhost:3000/api/workflow/execute";
+const API_URL = "https://openflow-server.onrender.com";
 
 const NODE_VARIANTS = {
   webhook: { label: 'Webhook', icon: Globe, color: 'from-pink-500 to-rose-500', shadow: 'shadow-pink-500/20' },
