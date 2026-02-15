@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD"
+}
+```
+
+### Solution C : Nettoyer le cache local
+Parfois, le déploiement local via la CLI envoie des fichiers corrompus. Essayez :
+1. `rm -rf .next` ou `rm -rf dist`
+2. `vercel --prod --force`
